@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "b230846214477b7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ed6c4803410678a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df897ccf7baa33f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "6.小节问题"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fa0c3068640843b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6563ec495d4e3751",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0fc84216ce6fd639",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "c6d5fe538c3d4002",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "97446fbc66a63f9a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "070ac2384dbd2fae",
+    "type": "split",
+    "children": [
+      {
+        "id": "21376a764fdb2dc1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0bb14791c2d5d096",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "6.小节问题 的反向链接列表"
+            }
+          },
+          {
+            "id": "07050ce41d1afd2c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "6.小节问题 的出链列表"
+            }
+          },
+          {
+            "id": "deee6b615107a476",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "b2571a5548142ac2",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "6341f40707873602",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "6.小节问题 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "df897ccf7baa33f8",
+  "lastOpenFiles": [
+    "第一章/内核第一条指令（基础篇）/ref与&.md",
+    "第一章/内核第一条指令（基础篇）/5.内存对齐.md",
+    "第一章/内核第一条指令（基础篇）/4.程序内存布局.md",
+    "第一章/内核第一条指令（基础篇）/3.编译流程.md",
+    "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+    "第一章/内核第一条指令（基础篇）/2.QEMU启动流程.md",
+    "第一章/内核第一条指令（基础篇）/1.基础知识.md",
+    "第一章/内核第一条指令（基础篇）.md",
+    "内核第一条指令.md",
+    "第一章",
+    "编译流程.md",
+    "第一章/内核第一条指令（基础篇）"
+  ]
+}
