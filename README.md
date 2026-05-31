@@ -1,4 +1,32 @@
+# 我的实验说明
+
+本仓库基于 rCore-Tutorial-v3 完成课程实验与作业练习。原项目 README 内容保留在下方，用于说明项目来源、构建方式和原始教程信息。
+
+## 我在本项目中完成的内容
+
+在学习 `<span>rCore-Tutorial-Book</span>` 的过程中，我对本仓库进行了如下补充和改进：
+
+1. 添加学习笔记，记录各章节中的关键概念、代码逻辑和实验理解，方便后续复习与学习。
+2. 完成 `<span>rCore-Tutorial-Book</span>` 中的练习作业。
+3. 按照教程章节推进实验内容，整个教程共包含 9 章，每一章对应不同的操作系统功能与实现目标。
+4. 在完成作业过程中，对相关代码进行了阅读、调试和理解，包括 Rust 代码、汇编入口代码、系统调用、任务管理等内容。
+
+## 完成进度
+
+| 章节      | 学习笔记  | 练习作业  | 状态           |
+| --------- | --------- | --------- | -------------- |
+| Chapter 1 | ⏳进行中  | ⏳进行中  | 🟡 In Progress |
+| Chapter 2 | ⬜ 未开始 | ⬜ 未开始 | ⚪ Not Started |
+| Chapter 3 | ⬜ 未开始 | ⬜ 未开始 | ⚪ Not Started |
+| Chapter 4 | ⬜ 未开始 | ⬜ 未开始 | ⚪ Not Started |
+| Chapter 5 | ⬜ 未开始 | ⬜ 未开始 | ⚪ Not Started |
+| Chapter 6 | ⬜ 未开始 | ⬜ 未开始 | ⚪ Not Started |
+| Chapter 7 | ⬜ 未开始 | ⬜ 未开始 | ⚪ Not Started |
+| Chapter 8 | ⬜ 未开始 | ⬜ 未开始 | ⚪ Not Started |
+| Chapter 9 | ⬜ 未开始 | ⬜ 未开始 | ⚪ Not Started |
+
 # rCore-Tutorial-v3
+
 rCore-Tutorial version 3.6. See the [Documentation in Chinese](https://rcore-os.github.io/rCore-Tutorial-Book-v3/).
 
 rCore-Tutorial API Docs.  See the [API Docs of Ten OSes ](#OS-API-DOCS)
@@ -8,6 +36,7 @@ If you don't know  Rust Language and try to learn it, please visit [Rust Learnin
 Official QQ group number: 735045051
 
 ## news
+
 - 23/06/2022: Version 3.6.0 is on the way! Now we directly update the code on chX branches, please periodically check if there are any updates.
 
 ## Overview
@@ -188,9 +217,9 @@ $ make run BOARD=k210
 
 Type `Ctrl+]` to disconnect from K210.
 
-
 ## Show runtime debug info of OS kernel version
-The branch of ch9-log contains a lot of debug info. You could try to run rcore tutorial 
+
+The branch of ch9-log contains a lot of debug info. You could try to run rcore tutorial
 for understand the internal behavior of os kernel.
 
 ```sh
@@ -235,17 +264,19 @@ Currently it can only help you view the code since only a tiny part of the code 
 You can open a doc html of `os` using `cargo doc --no-deps --open` under `os` directory.
 
 ### OS-API-DOCS
+
 The API Docs for Ten OS
+
 1. [Lib-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch1/os/index.html)
-1. [Batch-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch2/os/index.html)
-1. [MultiProg-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch3-coop/os/index.html)
-1. [TimeSharing-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch3/os/index.html)
-1. [AddrSpace-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch4/os/index.html)
-1. [Process-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch5/os/index.html)
-1. [FileSystem-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch6/os/index.html)
-1. [IPC-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch7/os/index.html)
-1. [SyncMutex-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch8/os/index.html)
-1. [IODevice-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch9/os/index.html)
+2. [Batch-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch2/os/index.html)
+3. [MultiProg-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch3-coop/os/index.html)
+4. [TimeSharing-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch3/os/index.html)
+5. [AddrSpace-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch4/os/index.html)
+6. [Process-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch5/os/index.html)
+7. [FileSystem-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch6/os/index.html)
+8. [IPC-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch7/os/index.html)
+9. [SyncMutex-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch8/os/index.html)
+10. [IODevice-OS API doc](https://rcore-os.github.io/rCore-Tutorial-v3/ch9/os/index.html)
 
 #### [OS API chinese doc](https://github.com/rcore-os/rCore-Tutorial-v3-api-doc/blob/main/rCore-Tutorial-v3.md)
 
@@ -259,24 +290,25 @@ Here are the updates since 3.5.0:
 
 ### Completed
 
-* [x] automatically clean up and rebuild before running our project on a different platform
-* [x] fix `power` series application in early chapters, now you can find modulus in the output
-* [x] use `UPSafeCell` instead of `RefCell` or `spin::Mutex` in order to access static data structures and adjust its API so that it cannot be borrowed twice at a time(mention `& .exclusive_access().task[0]` in `run_first_task`)
-* [x] move `TaskContext` into `TaskControlBlock` instead of restoring it in place on kernel stack(since ch3), eliminating annoying `task_cx_ptr2`
-* [x] replace `llvm_asm!` with `asm!`
-* [x] expand the fs image size generated by `rcore-fs-fuse` to 128MiB
-* [x] add a new test named `huge_write` which evaluates the fs performance(qemu\~500KiB/s k210\~50KiB/s)
-* [x] flush all block cache to disk after a fs transaction which involves write operation
-* [x] replace `spin::Mutex` with `UPSafeCell` before SMP chapter
-* [x] add codes for a new chapter about synchronization & mutual exclusion(uniprocessor only)
-* [x] bug fix: we should call `find_pte` rather than `find_pte_create` in `PageTable::unmap`
-* [x] clarify: "check validity of level-3 pte in `find_pte` instead of checking it outside this function" should not be a bug
-* [x] code of chapter 8: synchronization on a uniprocessor
-* [x] switch the code of chapter 6 and chapter 7
-* [x] support signal mechanism in chapter 7/8(only works for apps with a single thread)
-* [x] Add boards/ directory and support rustdoc, for example you can use `cargo doc --no-deps --open` to view the documentation of a crate
-* [x] code of chapter 9: device drivers based on interrupts, including UART, block, keyboard, mouse, gpu devices
-* [x] add CI autotest and doc in github 
+* [X] automatically clean up and rebuild before running our project on a different platform
+* [X] fix `power` series application in early chapters, now you can find modulus in the output
+* [X] use `UPSafeCell` instead of `RefCell` or `spin::Mutex` in order to access static data structures and adjust its API so that it cannot be borrowed twice at a time(mention `& .exclusive_access().task[0]` in `run_first_task`)
+* [X] move `TaskContext` into `TaskControlBlock` instead of restoring it in place on kernel stack(since ch3), eliminating annoying `task_cx_ptr2`
+* [X] replace `llvm_asm!` with `asm!`
+* [X] expand the fs image size generated by `rcore-fs-fuse` to 128MiB
+* [X] add a new test named `huge_write` which evaluates the fs performance(qemu\~500KiB/s k210\~50KiB/s)
+* [X] flush all block cache to disk after a fs transaction which involves write operation
+* [X] replace `spin::Mutex` with `UPSafeCell` before SMP chapter
+* [X] add codes for a new chapter about synchronization & mutual exclusion(uniprocessor only)
+* [X] bug fix: we should call `find_pte` rather than `find_pte_create` in `PageTable::unmap`
+* [X] clarify: "check validity of level-3 pte in `find_pte` instead of checking it outside this function" should not be a bug
+* [X] code of chapter 8: synchronization on a uniprocessor
+* [X] switch the code of chapter 6 and chapter 7
+* [X] support signal mechanism in chapter 7/8(only works for apps with a single thread)
+* [X] Add boards/ directory and support rustdoc, for example you can use `cargo doc --no-deps --open` to view the documentation of a crate
+* [X] code of chapter 9: device drivers based on interrupts, including UART, block, keyboard, mouse, gpu devices
+* [X] add CI autotest and doc in github
+
 ### Todo(High priority)
 
 * [ ] review documentation, current progress: 8/9
@@ -285,6 +317,7 @@ Here are the updates since 3.5.0:
 * [ ] give every non-zero process exit code an unique and clear error type
 * [ ] effective error handling of mm module
 * [ ] add more os functions for understanding os conecpts and principles
+
 ### Todo(Low priority)
 
 * [ ] rewrite practice doc and remove some inproper questions

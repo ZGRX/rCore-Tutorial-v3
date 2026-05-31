@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+                "file": "第一章/内核第一条指令（实践篇）/1.总流程.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "6.小节问题"
+              "title": "1.总流程"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+                "file": "第一章/内核第一条指令（实践篇）/1.总流程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "6.小节问题 的反向链接列表"
+              "title": "1.总流程 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+                "file": "第一章/内核第一条指令（实践篇）/1.总流程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "6.小节问题 的出链列表"
+              "title": "1.总流程 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+                "file": "第一章/内核第一条指令（实践篇）/1.总流程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "6.小节问题 的大纲"
+              "title": "1.总流程 的大纲"
             }
           }
         ]
@@ -185,15 +185,24 @@
   },
   "active": "df897ccf7baa33f8",
   "lastOpenFiles": [
-    "第一章/内核第一条指令（基础篇）/ref与&.md",
+    "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+    "第一章/内核第一条指令（实践篇）/1.总流程.md",
+    "第一章/内核第一条指令（实践篇）",
+    "第一章/未命名.md",
+    "第一章/内核第一条指令（实践篇）.md",
+    "Pasted image 20260531152703.png",
     "第一章/内核第一条指令（基础篇）/5.内存对齐.md",
     "第一章/内核第一条指令（基础篇）/4.程序内存布局.md",
+    "Pasted image 20260531152627.png",
     "第一章/内核第一条指令（基础篇）/3.编译流程.md",
-    "第一章/内核第一条指令（基础篇）/6.小节问题.md",
     "第一章/内核第一条指令（基础篇）/2.QEMU启动流程.md",
+    "RISC-V汇编基础/RISC-V 汇编基础.md",
+    "第一章/内核第一条指令（基础篇）/未命名.md",
+    "RISC-V汇编基础",
+    "内核第一条指令.md",
+    "第一章/内核第一条指令（基础篇）/ref与&.md",
     "第一章/内核第一条指令（基础篇）/1.基础知识.md",
     "第一章/内核第一条指令（基础篇）.md",
-    "内核第一条指令.md",
     "第一章",
     "编译流程.md",
     "第一章/内核第一条指令（基础篇）"
