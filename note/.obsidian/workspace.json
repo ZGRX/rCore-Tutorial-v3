@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "第一章/内核第一条指令（实践篇）/1.总流程.md",
+                "file": "第一章/为内核支持函数调用/2.函数调用与栈.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.总流程"
+              "title": "2.函数调用与栈"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第一章/内核第一条指令（实践篇）/1.总流程.md",
+                "file": "第一章/为内核支持函数调用/2.函数调用与栈.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "1.总流程 的反向链接列表"
+              "title": "2.函数调用与栈 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "第一章/内核第一条指令（实践篇）/1.总流程.md",
+                "file": "第一章/为内核支持函数调用/2.函数调用与栈.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "1.总流程 的出链列表"
+              "title": "2.函数调用与栈 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "第一章/内核第一条指令（实践篇）/1.总流程.md",
+                "file": "第一章/为内核支持函数调用/2.函数调用与栈.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.总流程 的大纲"
+              "title": "2.函数调用与栈 的大纲"
             }
           }
         ]
@@ -185,8 +185,14 @@
   },
   "active": "df897ccf7baa33f8",
   "lastOpenFiles": [
-    "第一章/内核第一条指令（基础篇）/6.小节问题.md",
+    "第一章/为内核支持函数调用/答案.md",
+    "第一章/为内核支持函数调用/2.函数调用与栈.md",
+    "Pasted image 20260602015659.png",
+    "第一章/为内核支持函数调用/1.带着问题去阅读.md",
+    "第一章/内核第一条指令（基础篇）/1.基础知识.md",
     "第一章/内核第一条指令（实践篇）/1.总流程.md",
+    "第一章/为内核支持函数调用",
+    "第一章/内核第一条指令（基础篇）/6.小节问题.md",
     "第一章/内核第一条指令（实践篇）",
     "第一章/未命名.md",
     "第一章/内核第一条指令（实践篇）.md",
@@ -201,7 +207,6 @@
     "RISC-V汇编基础",
     "内核第一条指令.md",
     "第一章/内核第一条指令（基础篇）/ref与&.md",
-    "第一章/内核第一条指令（基础篇）/1.基础知识.md",
     "第一章/内核第一条指令（基础篇）.md",
     "第一章",
     "编译流程.md",
